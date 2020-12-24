@@ -1,0 +1,14 @@
+click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+python-dotenv==0.15.0
+certifi==2020.12.5
+chardet==3.0.4
+cloudant==2.14.0
+idna==2.10
+requests==2.25.0
+urllib3==1.26.2
+WTForms-2.3.3
