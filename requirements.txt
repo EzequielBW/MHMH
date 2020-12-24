@@ -11,4 +11,4 @@ cloudant==2.14.0
 idna==2.10
 requests==2.25.0
 urllib3==1.26.2
-WTForms-2.3.3
+WTForms==2.3.3
