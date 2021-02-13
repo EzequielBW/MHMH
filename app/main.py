@@ -23,12 +23,9 @@ def main():
         submit = SubmitField('Submit')
     
     def get_cloudant_doc(itemID):
-
         client = Cloudant.iam(app.config["USER"], app.config["APIKEY"], connect=True)
         client.connect()
-        
         database = CloudantDatabase(client,"marketplace-history-database")
-
         with Document(database,document_id=f"marketplace-history-{itemID}") as document:
             return(document)
         
@@ -36,7 +33,6 @@ def main():
         item_ID = form.selected.data or 3075
         item_document = get_cloudant_doc(item_ID)
         item_name, item_history = item_document['name'], item_document['marketplace_history']
-
         line_labels = [date for date in item_history]
         line_values = [item_history[date]['average_price'] for date in line_labels]
         return render_template('line_chart.html', title=f'Marketplace History for {item_name}', max=17000, labels=line_labels, values=line_values, form=form)
