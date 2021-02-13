@@ -131,5 +131,6 @@ itemIDs = {
     "3065": "Richard's Sky Yacht Airship Sail", "3067": "Pirate Airship Sail", "3070": "Bottled Wind", "3075": "Adorned Empyrean Jewel", "3077": "Cyclone Stone", "3089": "Cloud Cheesecake", 
     "3108": "Pumpkin Patch Thrasher Trap Skin", "3123": "Treasure Hunting Gift Set", "3129": "Ancient Jade S.T.I.N.G.E.R. Trap Skin", "3130": "Gilded Dragon Slayer Cannon Trap Skin", 
     "3132": "Glazed Gift Basket", "3133": "Glazed Snow Golem Supply Box", "3134": "Glazed Snow Golem Supply Kit", "3153": "2021 Charm", "3154": "Rift 2021 Charm", 
-    "3155": "Chrome Celestial Christmas Tree Trap Skin", "3156": "Festive Fête Manipulator Trap Skin"
+    "3155": "Chrome Celestial Christmas Tree Trap Skin", "3156": "Festive Fête Manipulator Trap Skin", "3161": "Year of the Ox Gift Basket", "3162": "Year of the Ox Large Supply Kit", 
+    "3163": "Year of the Ox Supply Kit", "3171": "Chrome Monstrous OxBot Skin", "3172": "Raging Ox Trap Skin"
 }
